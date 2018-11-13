@@ -1,0 +1,114 @@
+/* --hinnakiri--*/
+ 
+ body{
+	 background-color:#FFF;
+	 color:	#669999;
+	 
+ }
+ .container {   /*parent*/
+
+	 padding: 20px 50px;
+	 display:flex;
+	 
+	 
+ }
+ .item-riistvara {  /*child*/
+	 flex: 1; /*Flexidega saab kõik sama olulised tulbad samasuureks,või siis olulisemad suurem nr ja vähem olulised väiksem*/
+	 background-color:#e0ebeb;
+	 border:solid;
+	 border-color:#669999;
+	 text-align: space-around;
+	 padding: 12px;
+ }
+ .item-tarkvara {  /*child*/
+	 flex: 1;
+	 background-color:#e0ebeb;
+	 border:solid;
+	 border-color:#669999;
+	 text-align: space-around;
+	 padding: 12px;
+ }
+
+.item-veebileht {   /*child*/
+	 flex: 1;
+	 background-color:#ffe6ff;
+	 border:solid;
+	 border-color:#669999;
+	 text-align: space-around;
+	 padding: 12px;
+	 }
+	 
+	 h3 {
+	  text-align: center;
+	  border-top:solid 2px;
+	  border-bottom:solid 2px;
+	  padding: 10px 25px;
+	 
+	 }
+	 
+	h2 {
+	  color: #4d7e80;
+	  text-align: center;
+	  padding: 10px 25px;
+	  
+	  }
+	 
+	.item-text {
+		flex: 1;
+		text-align: space-around;
+		height: 40%;
+		padding: 16px;
+	}
+	
+	p {
+	  text-align: center;
+	  
+	 }
+	 
+	 
+	button{
+	flex: 1;
+	background-color:#d9d9d9; /*lighter grey*/
+	color: #4d7e80;
+	padding: 14px 40px;
+	width: 200px;
+	text-align: center;  /*teksti joondumine-keskel(vt.flex)*/
+	display: inline-block;
+	font-weight: 200;    /*Teksti paksus*/
+	font-size: 20px;    /*Teksti suurus*/
+	border-radius: 6px;
+    float: left;
+    border: 1px solid #669999;
+	cursor: pointer; 
+	}
+	
+	 /*child*/
+	.item-button {
+    
+	flex: 1;
+    height: 40%;
+    align-content: center;
+    border-top: solid 2px;
+	
+}
+	
+ 
+ 
+  .fa-wrench {
+	color: #4d7e80;
+	padding: 5px 7px;
+	
+}
+
+ .fa-paint-roller {
+	color: #4d7e80;
+	padding: 5px 7px;
+	
+}
+
+.fa-house-damage {
+	color: #4d7e80;
+	padding: 5px 7px;
+
+ 
+ 
