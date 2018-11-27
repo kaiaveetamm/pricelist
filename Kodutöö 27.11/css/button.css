@@ -1,0 +1,195 @@
+/*button hoover practice*/
+<style> 
+
+body{
+	
+}
+
+
+.container{
+	display:flex;
+	justify-content:center;
+	padding-top:10px;
+	transition: 
+	
+}
+.container:hover{
+	transform: ;
+}
+
+.box1{
+	 width:300px;
+     height:450px;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 border:2px solid #5F9EA0;
+	 margin-left: 100px;
+	 margin-right: 100px;
+	 text-align: center;
+	 background-color:#faebd7;
+	 transition: all 5s;
+	 
+}
+
+.box1:hover{
+	transform: rotate(180deg);/*pöörab 360kraadi*/
+	
+}
+.box2{
+	 width:300px;
+     height:450px;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 border:2px solid #5F9EA0;
+	 margin-left: 100px;
+	 margin-right: 100px;
+	 text-align: center;
+	 background-color:#faebd7;
+	 transition: all 2s;
+}
+.box2:hover{
+	 background-color: #99ccff;/*muudab taustavärvi*/
+	 border-radius:50%; /*muudab ringiks*/
+	 }
+.box3{
+	 width:300px;
+     height:450px;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 border:2px solid #5F9EA0;
+	 margin-left: 100px;
+	 margin-right: 100px;
+	 text-align: center;
+	 background-color:#faebd7;
+	 
+	 
+}
+.box3:hover{
+	
+}
+
+h1{
+     text-align: center;
+	 transition: all 5s;
+}
+h1:hover{
+	transform:  scale(1.1);/*kasvatab*/
+}
+
+h2{
+     text-align: center;
+	 transition: all 5s;
+	 
+}
+h2:hover{
+	transform: scale(0.8);/*kahandab*/
+}
+
+.btn1{
+	
+    background-color: #fff;
+    color: #000000;
+    padding: 15px 32px;
+	margin-right:50px;
+	margin-left:50px;
+	cursor: pointer;
+    text-align: center;
+	border-radius: 50%;
+	border: solid 1px #5F9EA0;
+	
+    
+}
+.btn1:hover{
+	
+	border: solid 2px #5F9EA0;
+	
+	
+	
+	
+}
+
+.btn2{
+	
+    background-color: #fff;
+    color: #000000;
+    padding: 15px 32px;
+	margin-right:50px;
+	margin-left:50px;
+	cursor: pointer;
+    text-align: center;
+    transition: border-width 0.6s linear;
+}
+.btn2:hover{
+	border-width: 5px;
+	background-color: #5F9EA0;
+	color:#fff;
+	
+}
+
+.btn3{
+	
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+	padding: 15px 32px;
+	margin-right:50px;
+	margin-left:50px;
+	cursor: pointer;
+	border: 1px solid #5F9EA0;
+	transition: 0.3s;
+  
+}
+.btn3:hover{ 
+    border:3px solid #5F9EA0;
+	color: #5F9EA0;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
