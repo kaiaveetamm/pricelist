@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Kinga numbri teisendaja </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/kinganumber.css">
+	<script src="kinganumber.js"></script>
+</head>
+
+<body>
+	<form>
+        <fieldset>
+            
+                <h1>Kinganumbri teisendaja:</h1> 
+            </legend>
+
+            Sisesta oma kinga number: <input type="number" id="size">
+          
+			<div class="result">
+				<p id="result"></p>
+			</div>
+		  
+        </fieldset>
+    </form>
+
+
+	<button class="button btn1" onclick="myFunction()">Teisenda</button>
+    <button class="button btn2" type="reset"> Tühista </button>
+	
+	
+	<div class="box2"
+     <h2>Kingasuuruse teisendaja </h2>
+    <p>Kirjuta siia oma EU kingasuurus:</p>
+    <p>
+		<label>Eu </label>
+	<input id="inputcm" type="number" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+	</p>
+	<p>US: <span id="outputInches"></span></p>
+	
+	</div>
+  
+
+    
+
+
+</body>
+
+</html>
